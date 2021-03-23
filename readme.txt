@@ -1,7 +1,7 @@
 presentation
 Pour notre projet, nous avons décidés de faire un Escape Game sur le thème suivant : 
 
-"Imaginez vous réveillez soudainement, sans souvenir d'hier, dans une grande et sombre maison, qui n'est cependant pas la votre, vous devez redoubler d'efforts et user de votre logique
+"Imaginez vous réveiller soudainement, sans souvenir d'hier, dans une grande et sombre maison, qui n'est cependant pas la votre, vous devez redoubler d'efforts et user de votre logique
 pour sortir au plus vite de ce terrain inconnu. Au fur et à mesure de votre périple, vous résolverez des énigmes, et des choix impactant pour la suite de votre histoire s'offreront à vous,
 à vous de bien les choisir."
 
