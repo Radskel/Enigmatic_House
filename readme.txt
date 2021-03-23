@@ -1,4 +1,4 @@
-presentation
+Présentation
 Pour notre projet, nous avons décidés de faire un Escape Game sur le thème suivant : 
 
 "Imaginez vous réveiller soudainement, sans souvenir d'hier, dans une grande et sombre maison, qui n'est cependant pas la votre, vous devez redoubler d'efforts et user de votre logique
