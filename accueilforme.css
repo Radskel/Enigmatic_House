@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 70px;
+}
+
+
+#fenetre {
+    background-color: #FFB35C;
+     position: absolute;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width: 1000px; 
+     height: 800px;
+}
+.monbouton1 {
+    height: 50px;
+    width: 300px;
+    position: absolute;
+    margin: auto;
+    top: 100;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #3195AE;
+
+}
+
+.monbouton2 {
+    height: 50px;
+    width: 300px;
+    position: absolute;
+    margin: auto;
+    top: 300;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #3195AE;
+
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+#img1 {
+    float: left;
+}
+
+#img2 {
+    float: right;
+}
