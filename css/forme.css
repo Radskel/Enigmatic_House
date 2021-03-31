@@ -1,0 +1,50 @@
+h1 {
+     text-align: center;
+     font-family: verdana;
+     color: #408ec6;
+    }
+
+
+
+#position {
+    background-color:#408ec6;
+    height: 100PX;
+    width: 1200PX;
+    position: absolute;
+    top: 75;
+    left:310;
+}
+
+#divimage {
+    background-color:#408ec6;
+    height: 600PX;
+	width: 1200PX;
+    position: absolute;
+    top: 200;
+    left:310;
+}
+
+#texte{
+    background-color:#408ec6;
+    height: 100PX;
+    width: 1200PX;
+    position: absolute;
+    top: 825;
+    left:310; 
+}
+
+.monbouton {
+    height: 50px;
+    width: 400px;
+    margin-left: 65px;
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+img {
+    height: 500px;
+    width: 1100px;
+    position: absolute;
+    top: 50;
+    left:50; 
+}
