@@ -20,7 +20,7 @@ Fait par l'ensemble du groupe.
 - HTML
 - CSS
 Pour la base du projet et son esthétique.
-Fait par Noah, Radwan, Alexei et Hael.
+Fait par Noah, Radwan, Aleksei et Hael.
 
 3ème partie du projet :
 - JavaScript
