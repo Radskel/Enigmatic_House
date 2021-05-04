@@ -1,0 +1,54 @@
+h1 {
+     text-align: center;
+     font-family: verdana;
+     color: #408ec6;
+    }
+
+
+
+#position {
+    background-color:#408ec6;
+    height: 100PX;
+    width: 1200PX;
+    position: absolute;
+    top: 75;
+    left:310;
+}
+#enigme
+{
+	background-color:#ffffff;
+	display: none;
+	height: 600PX;
+	width: 260px;
+}
+#divimage {
+    background-color:#408ec6;
+	display: inline-block;
+    height: 600PX;
+	width: 1000PX;
+
+}
+
+#texte{
+    background-color:#00ff00;
+    height: 100PX;
+    width: 1200PX;
+    top: 825;
+    left:310; 
+}
+
+.monbouton {
+    height: 50px;
+    width: 400px;
+    margin-left: 65px;
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+#chambre {
+    height: 600px;
+    width: 1200px;
+    top: 50;
+    left:50; 
+}

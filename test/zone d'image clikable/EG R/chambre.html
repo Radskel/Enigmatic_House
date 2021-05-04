@@ -1,0 +1,73 @@
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="css/forme.css">
+    <title></title>
+</head>
+
+<script>
+var etat=0;
+
+function verifier()
+{
+	var resultat = document.getElementById("reponse");
+	var rep=parseInt(resultat.value,10);
+	if (rep==67)
+		{
+		etat=etat+1;
+		document.getElementById("enigme").style.display="none";
+		}
+		
+	alert(resultat.value+"  "+etat);
+}
+
+function commande(x)
+{
+	if (x.id=="globe")
+	{
+		var enigme = document.getElementById("enigme");
+		if(etat==0)
+		{
+			var zone_texte = document.getElementById("texte");
+			var img = document.createElement('img');
+			img.src = "image_projet/Enigmes/devinette-110_250.jpg";
+			img.setAttribute("height", "600");
+			img.setAttribute("width", "250");
+			enigme.appendChild(img);
+		
+			var reponse = document.createElement('input');
+			reponse.setAttribute("id", "reponse");
+			var btn = document.createElement("BUTTON");        
+			btn.innerHTML = "OK";  
+			btn.setAttribute("onclick","verifier()")				                           
+			zone_texte.appendChild(reponse);
+			zone_texte.appendChild(btn);
+		}
+		enigme.style.display="inline-block";
+		
+	}
+}
+
+</script>
+
+<body style="background-color:#1e2761;">
+ <h1>Enigmatic House</h1>
+
+    <div id="divimage">
+		<img id="chambre" src="image_projet/Pieces_de_la_maison/chambre.jpg" alt="no found" usemap="#carte">
+	    <map name="carte">
+			<area shape="rect" coords="11,8,49,19" href="#" id="ici" onclick="commande(this)"/>
+			<area shape="poly" coords="47,136,306,168,307,411,140,450,116,438,80,455,47,457,47,136" id="fenetre" href="#" onclick="commande(this)" />
+			<area shape="poly" coords="1054,121,1075,82,1075,500,1055,488,1054,121" id="?" href="#" onclick="commande(this)" />
+			<area shape="circle" coords="884,306,19" href="#"  id="globe" onclick="commande(this)" />
+		</map>
+    </div>
+	<div id="enigme">
+	</div>
+    <div id="texte">
+    	Réponse : 
+    </div>
+</body>
+
+
+
+</html>
