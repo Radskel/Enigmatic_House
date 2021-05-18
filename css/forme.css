@@ -15,6 +15,27 @@ h1 {
     left:310;
 }
 
+#enigme
+{
+    display: none;
+    height: 300PX;
+    width: 150px;
+    position: absolute;
+    top: 200;
+    left:310;
+}
+
+#enigme2
+{
+    display: none;
+    height: 300PX;
+    width: 150px;
+    position: absolute;
+    top: 200;
+    left:310;
+}
+
+
 #divimage {
     background-color:#408ec6;
     height: 600PX;
