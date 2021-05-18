@@ -1,0 +1,61 @@
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="css/forme.css">
+    <title></title>
+</head>
+
+<script>
+var etat=0;
+
+
+
+function commande(x)
+{
+    if (x.id=="livre")
+    {
+        var enigme = document.getElementById("enigme");
+        if(etat==0)
+        {
+            if(!document.getElementById("img_enigme"))
+            {
+            var zone_texte = document.getElementById("texte");
+            var img = document.createElement('img');
+            img.setAttribute("id", "img_enigme");
+            img.src = "image_projet/Enigmes/livre.jpg";
+            img.setAttribute("height", "200");
+            img.setAttribute("width", "600");
+            enigme.appendChild(img);
+            }
+        
+        }
+        enigme.style.display="inline-block";
+        
+    }
+}
+
+</script>
+
+<body style="background-color:#1e2761;">
+ <h1>Enigmatic House</h1>
+	<div id="position">
+ <h2>chambre</h2>	
+	</div>
+    <div id="divimage">
+        <img src="image_projet/Pieces_de_la_maison/chambre.jpg" id="imagechambre" alt="no found" usemap="#carte">
+	     <map name="carte">
+	 <area shape="poly" coords="47,136,306,168,307,411,140,450,116,438,80,455,47,457,47,136" href="#"  onclick="alert('cle manquante');" />
+     <area shape="poly" coords="929,326,939,307,978,307,972,327,929,326" id="livre" href="#" onclick="commande(this)"/>
+	 <area shape="poly" coords="1054,121,1075,82,1075,500,1055,488,1054,121" href="#" onclick="alert('cle manquante');"/>
+	 <area shape="circle" coords="884,306,19" href="https://earth.google.com/web/"/>
+	 </map>
+    </div>
+        <div id="enigme">
+             <input class=monbouton1 type="button" onclick="window.location.href = 'chambre1_2.html';" value="X">
+    </div>
+    <div id="texte">
+    </div>
+</body>
+
+
+
+</html>
