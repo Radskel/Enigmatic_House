@@ -69,3 +69,10 @@ img {
     top: 50;
     left:50; 
 }
+#image_postit{
+	  height: 300px;
+    width: 500px;
+    position: absolute;
+    top: 50;
+    left:50; 
+}
