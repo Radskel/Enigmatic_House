@@ -4,6 +4,37 @@
     <title></title>
 </head>
 
+<script>
+var etat=0;
+
+
+
+function commande(x)
+{
+    if (x.id=="post_it")
+    {
+        var enigme = document.getElementById("enigme");
+        if(etat==0)
+        {
+            if(!document.getElementById("image_postit"))
+            {
+            var zone_texte = document.getElementById("texte");
+            var img = document.createElement('img');
+            img.setAttribute("id", "image_postit");
+            img.src = "image_projet/Pieces_de_la_maison/post_it.png";
+            img.setAttribute("height", "400");
+            img.setAttribute("width", "400");
+            enigme.appendChild(img);
+            }
+        
+        }
+        enigme.style.display="inline-block";
+        
+    }
+}
+
+</script>
+
 <body style="background-color:#1e2761;">
  <h1>Enigmatic House</h1>
 	<div id="position">
@@ -12,9 +43,12 @@
     <div id="divimage">
         <img src="image_projet/Pieces_de_la_maison/cuisine1.png" alt="no found" usemap="#carte">
 	 <map name="carte">
-	 <area shape="poly" coords="176,243,186,243,186,238,198,238,198,246,211,247,211,256,199,256,199,248,191,246,194,253,178,253,177,243" href="#"/> 
+	 <area shape="poly" id="post_it" coords="176,243,186,243,186,238,198,238,198,246,211,247,211,256,199,256,199,248,191,246,194,253,178,253,177,243" href="#" onclick="commande(this)" />
          <area shape="poly" coords="1045,0,1099,0,1099,499,1045,499,1045,0" href="salon.html" />
 		</map>
+    </div>
+	  <div id="enigme">
+             <input class=monbouton1 type="button" onclick="window.location.href = 'cuisine.html';" value="X">
     </div>
     <div id="texte">
     	
